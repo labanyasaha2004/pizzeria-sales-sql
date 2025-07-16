@@ -1,7 +1,9 @@
-Pizzeria Sales SQL Analysis
+**Pizzeria Sales SQL Analysis**
+
 This repository contains an SQL-based data analysis project focused on exploring sales patterns and performance metrics from a fictional pizzeria's order data. The goal is to extract actionable insights using structured queries across multiple related tables.
 
-Project Overview
+**Project Overview**
+
 Using SQL, this project analyzes pizza order data to answer key business questions such as:
 
 What is the total number of orders and total revenue?
@@ -14,7 +16,8 @@ How do sales vary by time of day and day of the week?
 
 What are the cumulative revenue trends over time?
 
-Dataset Schema
+**Dataset Schema**
+
 The database consists of four main tables:
 
 orders – Contains order_id, date, and time
@@ -25,7 +28,8 @@ pizzas – Contains pizza_id, pizza_type_id, size, and price
 
 pizza_types – Contains pizza_type_id, name, category, and ingredients
 
-SQL Concepts Applied
+**SQL Concepts Applied**
+
 Joins across multiple tables
 
 Aggregate functions: SUM, COUNT, AVG, ROUND
@@ -38,7 +42,8 @@ Common Table Expressions (CTEs) using WITH
 
 Time-based analysis using DATE() and HOUR()
 
-Key Analyses
+**Key Analyses**
+
 Total revenue and order count
 
 Most and least ordered pizzas
@@ -51,7 +56,8 @@ Daily average pizzas ordered
 
 Cumulative revenue tracking
 
-Tools Used
+**Tools Used**
+
 SQL (MySQL 8+ recommended)
 
 SQL IDEs: MySQL Workbench
